@@ -371,15 +371,13 @@ curl -X DELETE http://localhost:8000/memory/demo
 
 The Streamlit interface presents a chat window with a pipeline trace beneath each answer, showing the answer source (local index or web search), the classified query type, and the number of retrieval retries.
 
-**Conceptual question with citation**
-
-![Pydantic question with source citation](docs/screenshots/pydantic-with-trace.png)
-
+**Conceptual question with citation and**
 **Follow-up question resolved via conversation memory**
 
 The second question, "How do I install it?", is resolved against the prior question about Pydantic using session chat history.
 
-![Follow-up question resolved using conversation memory](docs/screenshots/followup-memory.png)
+![Pydantic question with source citation](docs/screenshots/pydantic-with-trace.png)
+
 
 **How-to question with code generation**
 
